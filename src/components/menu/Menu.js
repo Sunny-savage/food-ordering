@@ -1,8 +1,8 @@
 import { useContext, useState } from "react";
 import { CartContext } from "../AppContext";
-import toast from "react-hot-toast";
+
 import MenuItemTile from "../menu/MenuItemTile";
-import FlyingButton from "react-flying-item";
+
 import Image from "next/image";
 
 const Menu = (menuItem) => {
