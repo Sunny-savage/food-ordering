@@ -35,7 +35,7 @@ const Users = () => {
               <div className=" grid grid_col-2 md:grid-cols-3 gap-4 grow">
                 <div className="text-gray-900">
                   {!!use.name && <span> {use.name}</span>}
-                  {!use.name && <span className="italic"> "No Name"</span>}
+                  {!use.name && <span className="italic">No Name</span>}
                 </div>
 
                 <span className="text-gray-500"> {use.email}</span>
